@@ -1,0 +1,12 @@
+uvicorn backend.main:app --reload
+
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ZXN0QGV4YW1wbGUuY29tIiwiZXhwIjoxNzUxMjEwNTY4fQ.0QjX20Kimwb7oou4Ai79FrJSu_mgvP5Tj7gK0_7QZvE
+
+Email:    tests@example.com
+Пароль:  test
+
+cd crm-frontend
+npm install  # если ещё не делал
+
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+npm run dev
