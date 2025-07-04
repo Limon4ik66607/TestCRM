@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind utilities;
+
+
+body {
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
